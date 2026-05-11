@@ -1,0 +1,19 @@
+<idea-plugin>
+
+    <id>com.example.aicommit</id>
+    <name>AI Commit Generator</name>
+    <vendor email="you@example.com">You</vendor>
+
+    <actions>
+        <action
+                id="AICommitGenerator.Generate"
+                class="com.example.aicommit.GenerateCommitAction"
+                text="Generate AI Commit Message"
+                description="Generates commit message using AI">
+
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+
+        </action>
+    </actions>
+
+</idea-plugin>
